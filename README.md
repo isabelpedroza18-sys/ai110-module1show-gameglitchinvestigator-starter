@@ -25,13 +25,13 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [ ] Describe the game's purpose. to get experience using AI as a tool with uderstanding the logic of code, finding bugs, and finding potential solutions to bugs.
+- [ ] Detail which bugs you found. I found a bug with the hints being backwards, the game would not restart after playing once, and the range for the difficulty levels were not accurate.
+- [ ] Explain what fixes you applied. With the help of AI, the hints are no longer backwards and the edit was done to check_guesses function, the way the status of the game state was fixed to reset the game state after choosing new game on the app on app.py, and difficulty levels range was switched between normal and hard, so that hard had a higher range/difficulty in get_range_for_difficulty on logic_utils.py file.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [ ] ![alt text](image.png)
 
 ## 🚀 Stretch Features
 
